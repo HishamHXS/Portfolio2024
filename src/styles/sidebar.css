@@ -1,0 +1,58 @@
+.fixed {
+    position: fixed;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .left-0 {
+    left: 0;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .w-16 {
+    width: 16rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .sidebar-icon {
+    padding: 1rem;
+    color: inherit;
+    text-decoration: none; /* Remove underline from links */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .sidebar-icon:hover,
+  .sidebar-icon.group:hover {
+    transform: scale(1.1); /* Optional hover effect */
+  }
+  
+  .sidebar-tooltip {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    bottom: 110%; /* Position tooltip below the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .group:hover .sidebar-tooltip {
+    opacity: 1;
+    pointer-events: auto;
+  }
