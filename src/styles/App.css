@@ -1,9 +1,10 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e272e;
   min-height: 100vh;  
   color: white;
-  padding: 40px; /* Add this line */
+  padding: 100px;
 
 }
 
@@ -19,7 +20,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   padding-top: 20px;
@@ -27,6 +27,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: 'Roboto','Montserrat', sans-serif;
   color: white;
 }
 
@@ -45,6 +46,42 @@
   }
 }
 
-.projects{
-  width: 50;
+.section-projects{
+  display: flex;
+  justify-content: center; /* Centers the grid horizontally */
+  align-items: center;     /* Centers the grid vertically */
+  height: 100vh;           /* Full height of the viewport */
+  width: 100%;             /* Full width of the viewport */
 }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    list-style-type: none; /* Add this line to remove bullet points */
+
+    
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navbar-link:hover {
+    color: #61dafb;
+  }

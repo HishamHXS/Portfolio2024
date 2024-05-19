@@ -1,0 +1,9 @@
+.book-grid img {
+    width: 100px; /* Set the width of the images */
+    height: auto; /* Keep the aspect ratio */
+}
+
+.shows-grid img {
+    width: 100px; /* Set the width of the images */
+    height: auto; /* Keep the aspect ratio */
+}

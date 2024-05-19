@@ -1,9 +1,30 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 20px;
     padding: 20px;
+    width: 50%;              /* 50% of the container's width */
+    box-sizing: border-box;  /* Includes padding in the width calculation */
+    margin-left: auto;       /* Add this line */
+    margin-right: auto;      /* Add this line */
 }
+
+/* For medium screens */
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+        width: 80%; /* Reduce width to 80% for medium screens */
+    }
+}
+
+/* For large screens */
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr); /* 3 columns for large screens */
+        width: 60%; /* Reduce width to 60% for large screens */
+    }
+}
+
 
 .grid-item {
     background-color: transparent; /* Change this line */
@@ -23,4 +44,32 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 600px) {
+    .grid-item {
+        padding: 20px; /* Increase padding for medium screens */
+    }
+}
+
+/* For large screens */
+@media (min-width: 900px) {
+    .grid-item {
+        padding: 30px; /* Increase padding for large screens */
+    }
+}
+.grid-item.item2 {
+    background-image: url('../assets/My\ first\ design.png');
+    background-position: 0% 30%; /* Center the background image */
+    background-size: 20%; /* Decrease the size of the background image */
+    background-repeat: no-repeat; /* Stop the background image from repeating */
+
+}
+
+.grid-item.item1 {
+    background-image: url('../assets/visionary.png');
+    background-position: 0% 30%; /* Center the background image */
+    background-size: 20%; /* Decrease the size of the background image */
+    background-repeat: no-repeat; /* Stop the background image from repeating */
+
 }
