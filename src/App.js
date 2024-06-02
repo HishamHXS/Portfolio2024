@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from './subpages/projects';
-import Sidebar from './subpages/sidebar';
+import Links from './subpages/links';
 import About from './subpages/about';
 import Interests from './subpages/interests';
 import './styles/App.css';
@@ -8,10 +8,9 @@ import './styles/App.css';
 function App() {
   return (
     <div className="App">
-      <Sidebar />
       <header className="App-header">
-        <h1>Hisham Haque</h1>
-        <p>Software Engineer</p>
+        <h2>Hisham Haque</h2>
+        <p>Software Engineer - Google</p>
       </header>
 
       <section id="about">
@@ -31,6 +30,7 @@ function App() {
       <section id="contact">
         <h2>Contact</h2>
        <p> Email: hishamhaque11@gmail.com</p>
+       <Links />
       </section>
     </div>
   );

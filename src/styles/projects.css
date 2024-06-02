@@ -3,10 +3,10 @@
     /* grid-template-columns: repeat(2, 1fr); */
     gap: 20px;
     padding: 20px;
-    width: 50%;              /* 50% of the container's width */
+    /* width: 50%;        */
     box-sizing: border-box;  /* Includes padding in the width calculation */
-    margin-left: auto;       /* Add this line */
-    margin-right: auto;      /* Add this line */
+    margin-left: auto;      
+    margin-right: auto;      
 }
 
 /* For medium screens */
@@ -20,8 +20,8 @@
 /* For large screens */
 @media (min-width: 900px) {
     .grid {
-        grid-template-columns: repeat(1, 1fr); /* 3 columns for large screens */
-        width: 60%; /* Reduce width to 60% for large screens */
+        grid-template-columns: repeat(2, 1fr); /* 3 columns for large screens */
+        width: 100%; /* Reduce width to 60% for large screens */
     }
 }
 
@@ -33,17 +33,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+}
+.grid-item::before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* This creates the square shape */
+}
+
+.grid-item:hover {
+    transform: scale(1.2); /* Enlarge the grid box */
+    z-index: 1; /* Add this line to bring the item to the front when hovered */
+
 }
 
 @media (min-width: 600px) {
@@ -61,7 +68,7 @@
 .grid-item.item2 {
     background-image: url('../assets/My\ first\ design.png');
     background-position: 0% 30%; /* Center the background image */
-    background-size: 20%; /* Decrease the size of the background image */
+    background-size: 100%; /* Decrease the size of the background image */
     background-repeat: no-repeat; /* Stop the background image from repeating */
 
 }
@@ -69,7 +76,7 @@
 .grid-item.item1 {
     background-image: url('../assets/visionary.png');
     background-position: 0% 30%; /* Center the background image */
-    background-size: 20%; /* Decrease the size of the background image */
+    background-size: 100%; /* Decrease the size of the background image */
     background-repeat: no-repeat; /* Stop the background image from repeating */
 
 }

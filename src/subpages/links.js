@@ -1,9 +1,8 @@
 import React from 'react';
-// import React, { useState } from 'react';
 import { AiFillLinkedin, AiFillGithub, AiFillMail, AiFillSetting,AiFillFilePdf  } from 'react-icons/ai';
-import '../styles/sidebar.css';
+import '../styles/links.css';
 
-const Sidebar = () => {
+const Links = () => {
   const links = [
     { icon: <AiFillLinkedin size="38" />, href: 'https://www.linkedin.com/in/hisham-haque-794062258/', text: 'LinkedIn' },
     { icon: <AiFillGithub size="38" />, href: 'https://github.com/HishamHXS', text: 'Github' },
@@ -26,4 +25,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Links;
