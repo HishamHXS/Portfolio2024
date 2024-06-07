@@ -1,0 +1,37 @@
+.book-grid img,
+.shows-grid img {
+    width: 100px; /* Default width */
+    height: auto; /* Keep the aspect ratio */
+    padding: 10px;  
+    transition: transform 0.5s; /* Animation over 0.5 seconds */
+}
+
+/* Hover effect */
+.book-grid img:hover,
+.shows-grid img:hover {
+    transform: scale(1.2); /* Enlarge the image */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .book-grid img,
+    .shows-grid img {
+        width: 120px; /* Adjusted width for medium devices */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .book-grid img,
+    .shows-grid img {
+        width: 150px; /* Adjusted width for large devices */
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .book-grid img,
+    .shows-grid img {
+        width: 150px; /* Adjusted width for extra large devices */
+    }
+}
