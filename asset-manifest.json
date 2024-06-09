@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio2024/static/css/main.e1d5831b.css",
+    "main.js": "/Portfolio2024/static/js/main.c51556e1.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio2024/static/js/453.1407b060.chunk.js",
+    "static/media/FourthWing.jpg": "/Portfolio2024/static/media/FourthWing.a1fd39b59de3e9b50d84.jpg",
+    "static/media/My first design.png": "/Portfolio2024/static/media/My first design.70530bb63fd003c2e45e.png",
+    "static/media/visionary.png": "/Portfolio2024/static/media/visionary.1e967a7667301708cd14.png",
+    "static/media/spiderman.jpg": "/Portfolio2024/static/media/spiderman.57899b1909b84f71dec2.jpg",
+    "static/media/sixcrows.jpg": "/Portfolio2024/static/media/sixcrows.d0ac0b6b12aa291dec4d.jpg",
+    "static/media/jjk.jpg": "/Portfolio2024/static/media/jjk.db6c36fe0952504df830.jpg",
+    "static/media/dune.jpg": "/Portfolio2024/static/media/dune.1b8c40f2da2e23d6b3f0.jpg",
+    "static/media/TheNightCircus.jpg": "/Portfolio2024/static/media/TheNightCircus.1fcee513e95a722b0e1d.jpg",
+    "static/media/aot.jpg": "/Portfolio2024/static/media/aot.f5b30ec0c375558e8cfe.jpg",
+    "static/media/inconsolata-latin-ext-400-normal.woff2": "/Portfolio2024/static/media/inconsolata-latin-ext-400-normal.2797b9444aad7441c028.woff2",
+    "static/media/inconsolata-latin-400-normal.woff2": "/Portfolio2024/static/media/inconsolata-latin-400-normal.738ff90c95338de11321.woff2",
+    "static/media/inconsolata-latin-ext-400-normal.woff": "/Portfolio2024/static/media/inconsolata-latin-ext-400-normal.6fc9fdb58b5cd307c989.woff",
+    "static/media/inconsolata-latin-400-normal.woff": "/Portfolio2024/static/media/inconsolata-latin-400-normal.4fa2aac79e0f9b9bda38.woff",
+    "static/media/johnwick.jpeg": "/Portfolio2024/static/media/johnwick.18d9c2eb1bdf97480ba4.jpeg",
+    "static/media/inconsolata-vietnamese-400-normal.woff2": "/Portfolio2024/static/media/inconsolata-vietnamese-400-normal.22f36d4ded7995a21f3e.woff2",
+    "static/media/inconsolata-vietnamese-400-normal.woff": "/Portfolio2024/static/media/inconsolata-vietnamese-400-normal.e5e7f8cea30d31943ace.woff",
+    "index.html": "/Portfolio2024/index.html",
+    "main.e1d5831b.css.map": "/Portfolio2024/static/css/main.e1d5831b.css.map",
+    "main.c51556e1.js.map": "/Portfolio2024/static/js/main.c51556e1.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio2024/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1d5831b.css",
+    "static/js/main.c51556e1.js"
+  ]
+}

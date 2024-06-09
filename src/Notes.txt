@@ -1,4 +1,0 @@
-Bugs:
-- Fix the gap between the tooltip and the sidebar icons
-- Fix the styling for the contacts form
-- Fill out the interests and skills sections
